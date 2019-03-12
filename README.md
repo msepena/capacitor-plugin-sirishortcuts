@@ -46,16 +46,16 @@ export class AppComponent {
  donate() {
     const data = {
       persistentIdentifier: 'open-my-app',
-      title: 'Careteam',
-      suggestedInvocationPhrase: 'Add to Careteam',
+      title: 'Open my app'',
+      suggestedInvocationPhrase: 'Open my app'',
       isEligibleForSearch: true,
-      userInfo: {deeplink: "care-team"},
+      userInfo: {deeplink: "home"},
       isEligibleForPrediction: true,
     }
     const { Toast, SiriShortcuts } = Plugins;
 
     SiriShortcuts.donate(data).then(resp => {
-      Toast.show( {text: "successfully submitted"});
+      Toast.show( {text: "successfully donated"});
     }, error => {
       Toast.show( {text: error['message']});
     });
