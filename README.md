@@ -4,7 +4,7 @@ This plugin adds support for donating and removing Siri Shortcuts.
 
 ## Getting Started
 
-npm i npm i @msepena/capacitor-plugin-sirishortcuts
+npm i @msepena/capacitor-plugin-sirishortcuts
 
 ### Prerequisites
 
