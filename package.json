@@ -1,0 +1,47 @@
+{
+  "name": "@msepena/capacitor-plugin-sirishortcuts",
+  "version": "0.0.4",
+  "description": "Capcacito siri shortcuts",
+  "main": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf ./dist",
+    "watch": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "msepena",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/core": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  },
+  "files": [
+    "dist/",
+    "ios/",
+    "android/",
+    "MsepenaCapacitorPluginSirishortcuts.podspec"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    },
+    "android": {
+      "src": "android"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/msepena/capacitor-plugin-sirishortcuts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/msepena/capacitor-plugin-sirishortcuts/issues"
+  }
+}
