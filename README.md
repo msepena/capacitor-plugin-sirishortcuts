@@ -12,7 +12,7 @@ The plugin only works in XCode 10, and on the iOS 12 platform.
 
 ### Installing
 
-npm i npm i @msepena/capacitor-plugin-sirishortcuts
+npm i @msepena/capacitor-plugin-sirishortcuts --save
 
 
 ```
