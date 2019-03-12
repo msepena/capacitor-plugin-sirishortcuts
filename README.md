@@ -2,10 +2,6 @@
 
 This plugin adds support for donating and removing Siri Shortcuts. 
 
-## Getting Started
-
-npm i @msepena/capacitor-plugin-sirishortcuts
-
 ### Prerequisites
 
 The plugin only works in XCode 10, and on the iOS 12 platform.
@@ -14,6 +10,7 @@ The plugin only works in XCode 10, and on the iOS 12 platform.
 
 npm i @msepena/capacitor-plugin-sirishortcuts --save
 
+### Usage
 
 ```
 
@@ -66,26 +63,3 @@ export class AppComponent {
 
   }
 ```
-
-
-## Built With
-
-https://capacitor.ionicframework.com/docs/plugins/js
-
-## Contributing
-
-
-
-## Versioning
-
-
-
-## Authors
-
-
-
-## License
-MIT
-
-
-## Acknowledgments
