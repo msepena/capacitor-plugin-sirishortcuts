@@ -1,4 +1,4 @@
-# Capacitor Siri shortcute
+# Capacitor Siri shortcuts
 
 This plugin adds support for donating and removing Siri Shortcuts. 
 
